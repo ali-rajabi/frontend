@@ -1,0 +1,77 @@
+.question-list-item {
+  display: flex;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 7px 0;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.question-list-num {
+  max-width: 70px;
+}
+
+.question-list-quest {
+  max-width: 450px;
+  min-width: 450px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 15px;
+  text-overflow: ellipsis;
+  margin-left: auto;
+}
+
+.question-list-difficulty {
+  max-width: 20px;
+  min-width: 200px;
+  white-space: nowrap;
+  padding: 0 15px;
+}
+.question-list-date {
+  max-width: 200px;
+  min-width: 200px;
+  white-space: nowrap;
+  padding: 0 15px;
+}
+.question-list-status {
+  max-width: 100px;
+  min-width: 100px;
+  white-space: nowrap;
+  padding: 0 15px;
+  text-align: center;
+  cursor: pointer;
+}
+// question list form
+.search-question-form {
+  display: flex;
+
+  .input-question-form {
+    width: 200px;
+    padding: 7px;
+  }
+  .submit-question-form {
+    all: unset;
+    background-color: #333;
+    color: white;
+    padding: 7px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  select {
+    width: 150px;
+    padding: 0 5px;
+  }
+  .clear-search-questions {
+    padding: 7px 15px;
+    display: flex;
+    background-color: #d9d9d9;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 10px;
+    span {
+      margin: 0 5px;
+    }
+    i {
+      color: red;
+    }
+  }
+}
